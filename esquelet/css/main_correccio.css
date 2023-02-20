@@ -243,12 +243,53 @@ main > div.col-12:hover {
 }
 
 /* Exercici 3 - LAYOUT RESPONSIVE */
-
 @media only screen and (max-width: 680px){
-    
-    
+/*
+    body {
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto auto;
+    }
 
-/*EJERCICIO 6*/
+    header {
+        grid-row: 1 / 2;
+    }
+    main > div.row {
+        grid-row: 2 / 3;
+
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto auto;
+    }
+    main > div.row > aside.col-3 {
+        grid-row: 1 / 2;
+
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto auto auto auto auto;
+    }
+    main > div.row > aside.col-3 > section:nth-child(1) {
+        grid-row: 1 / 2;
+    }
+    main > div.row > aside.col-3 > section:nth-child(2) {
+        grid-row: 2 / 3;
+    }
+    main > div.row > aside.col-3 > section:nth-child(3) {
+        grid-row: 3 / 4;
+    }
+    main > div.row > aside.col-3 > section:nth-child(4) {
+        grid-row: 4 / 5;
+    }
+    main > div.row > aside.col-3 > section:nth-child(5) {
+        grid-row: 5 / 6;
+    }
+*/
+
+
+
+
+
+    /*de ejercicio 6*/
     main > div.row > section#container > div#gallery {
         background-color: #9b0000;
         padding-top: 20px;
@@ -265,16 +306,20 @@ main > div.col-12:hover {
     }
     
     main > div.row > section#container > div#gallery > article:nth-child(3) > img {
-        width: 200px;height: 220px;
+        width: 200px;
+        height: 220px;
     }
     main > div.row > section#container > div#gallery > article:nth-child(4) > img {
-        width: 200px;height: 220px;
+        width: 200px;
+        height: 220px;
     }
     main > div.row > section#container > div#gallery > article:nth-child(5) > img {
-        width: 200px;height: 220px;
+        width: 200px;
+        height: 220px;
     }
     main > div.row > section#container > div#gallery > article:nth-child(6) > img {
-        width: 200px;height: 220px;
+        width: 200px;
+        height: 220px;
     }
     
     main > div.row > section#container > div#gallery > article > h3 {
@@ -303,8 +348,7 @@ main > div.col-12:hover {
         animation: vuelta 5s linear infinite;
     }
     
-
-/*EJERCICIO 5*/
+    /*de ejercicio 5*/
     main > div.row {
         display: grid;
         grid-template-columns: auto;
